@@ -18,7 +18,7 @@ function App() {
         >
            React yy
           sun shao React
-           React  00
+           React  
         </a>
       </header>
     </div>
