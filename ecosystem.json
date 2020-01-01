@@ -1,0 +1,16 @@
+{
+    "deploy": {
+      "testing": {
+        "user": "root",
+        "host": "118.25.148.163",
+        "ref": "origin/master",
+        "repo": "git@github.com:sunshaobin/create-react-app.git",
+        "path": "/usr/share/nginx/html",
+        "post-deploy": "yarn install --frozen-lockfile && yarn run  build --concurrency 1 --stream",
+        "env": {
+            "env": "production"
+        }
+      }
+    }
+  }
+  
